@@ -1,0 +1,146 @@
+body {
+    background-color: white;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.container-body {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+
+.container-1 {
+    width: 100%;
+     background-color: #1f2937;
+    color: white;
+    padding: 0;
+} 
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.flex-container div {
+    background: #1f2937;
+    justify-content: space-between;
+    align-content: center;
+    height: 50px;
+    flex: 1 2 auto;
+}
+
+.flex-container > .one {
+    font-size: 30px;
+    flex-basis: 400px;
+    align-items: center;
+}
+
+
+.link {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container {
+    background-color: #1f2937;
+    width: 100%;
+
+}
+
+.container-not-working {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+img {
+    height: 100px;
+}
+/* 
+.container-hopefully-works {
+    display: flex;
+    align-items: center;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+} */
+
+.container-pictures {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.container-4 {
+    background-color: #e5e7eb;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-5 {
+    background-color: white;
+}
+
+.quote {
+    color: black;
+    font-size: 36px;
+}
+
+
+.container-5 {
+       background-color: #3882f6;
+    width: 800px;
+    height: 75px;
+    margin: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 25px; 
+}
+.container-sign-up {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    
+}
+
+
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+    
+}
+
+a {
+   color: #f9faf8; 
+}
+
+.random-information {
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+}
