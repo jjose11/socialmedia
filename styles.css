@@ -68,7 +68,7 @@ body {
 
 }
 
-img {
+img  {
     height: 100px;
 }
 /* 
@@ -120,10 +120,16 @@ img {
     border-radius: 25px; 
 }
 .container-sign-up {
-    display: flex;
+    display: inline-flex;
+    flex-direction: column;
     align-items: center;
     align-content: center;
     
+}
+
+.bottom-sign-up {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
@@ -143,4 +149,22 @@ a {
     font-size: 25px;
     font-weight: 800;
     text-align: center;
+}
+
+button {
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+button:hover {
+    background-color: white;
+    color: #3882f6;
+    border: 1px solid #3882f6;
 }
